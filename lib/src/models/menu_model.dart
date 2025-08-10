@@ -5,7 +5,7 @@ class MenuModel {
   final IconData icon;
   final String route;
   final Widget page;
-
+ 
   MenuModel({
     required this.title,
     required this.icon,
