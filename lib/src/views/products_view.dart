@@ -30,6 +30,9 @@ class _ProductsViewState extends State<ProductsView> {
     for (var produto in produtos) {
       print('Produtos: ${produto.nome}');
       print('Preco: ${produto.preco}');
+      print('Preco: ${produto.descricao}');
+      print('Preco: ${produto.idCategoria}');
+
     }
 
     return Padding(
